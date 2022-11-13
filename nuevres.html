@@ -4,41 +4,49 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale01.0">
+    <link rel="stylesheet"type="text/css"href="./css/style.css">
     <Title>Restaurans</Title>
 </head>
-    <body>
-      <nav>
-        <ul>
-        <a href="Inicio.html">Inicio.</a>
-        <a href="busqueda.html">Busqueda</a>
-        <a href="nuevres.html">Nuevo</a>
-        </ul>
-      </nav>      
-        <div id="mail">
+<body>
+  <nav>
+    <div class="nav-main">
+      <div class="nav-header">
+         <img src="./imagenes/logo.jpg" alt="Logo">
+      </div>
+     <ul class="menu">
+       <il>
+           <a href="index.html">Inicio.</a>
+       </il>
+       <il>
+           <a href="busqueda.html">Busqueda</a>
+       </il>
+       <il>
+           <a href="nuevres.html">Nuevo</a>
+       </il>
+    </ul>
+    </div>
+  </nav>       
+        
         <h1>Registro nuevo restautante</h1>
+        <p>Escriva los datos</p>
         <hr />
-            <div class="formulario">
-        <form action="/Inicio.html" method="post"><!-- etiqueta de apertura cuerpo formulario -->
-     
-           <p>
-             <label>Nombre </label><br> <!--nombre del restaurante-->
-             <input type="text" name="nombre" /> <!--tipo texto-->
-            </p>
-            <p>
+        <form>
+           
+             <label id="lblnombre">Nombre </label><br> <!--nombre del restaurante-->
+             <hr />
+             <input type="text" id="textnombre" /> <!--tipo texto-->
+             <hr />
              <label>Descripcion </label><br> <!--descricion del restaurante-->
-
-             <input type="text" name="descripcion" /> <!--tipo texto-->
-            </p>
-            <p>
+             <hr />
+             <input type="text" id="descripcion" /> <!--tipo texto-->
+             <hr />
              <label>Direccion</label><br> <!--direccion del restaurante-->
-
-             <input type="text" name="direccion" /> <!--tipo texto-->
-
-            </p>
-            <p>
+             <hr />
+             <input type="text" id="direccion" /> <!--tipo texto-->
+             <hr />
              <label>Foto url</label><br> <!--direccion del restaurante-->
-
-             <input type="text" name="foto url" /> <!--tipo texto-->
+             <hr />
+             <input type="text" id="foto url" /> 
                
             </p>
             <button>guardar</button>

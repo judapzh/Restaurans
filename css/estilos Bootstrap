@@ -1,4 +1,4 @@
-<link rel=" estilos " href ="./css/estilos.css " >
+<link rel="estilossheet"type="text/css"href="./css/style.css">
 <div class="container text-center">
     <div class="row justify-content-start">
       <div class="col-4">
