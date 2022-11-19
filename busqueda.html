@@ -6,45 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale01.0">
     <link rel="stylesheet"type="text/css"href="./css/style.css">
     <Title>Restaurans</Title>
+    <script type="txt/javascript" src="/content/jquery/version 3.2.1/js/jquery.win.js"></script>
+    <script type="txt/javascript" src="/Js/search.js"></script>
 </head>
 <body>
-    <nav>
-      <div class="nav-main">
-        <div class="nav-header">
-           <img src="./imagenes/logo.jpg" alt="Logo">
-        </div>
-       <ul class="menu">
-         <il>
-             <a href="index.html">Inicio.</a>
-         </il>
-         <il>
-             <a href="busqueda.html">Busqueda</a>
-         </il>
-         <il>
-             <a href="nuevres.html">Nuevo</a>
-         </il>
-      </ul>
+  <nav>
+    <div class="nav-main">
+      <div class="nav-header">
+         <img src="./imagenes/logo.jpg" alt="Logo">
       </div>
-    </nav>  
-         <h1>busqueda</h1>
-        
-     <div class="conteiner">
-        <form action="../../Desarrollo%20web%201/Restaurants%20app/index.html" method="post" target="_blank">
-   
-        <p>
-  
-     Buscar Restaurante: <input type="search" name="restautante list ="index.html">
-    
-    <input type="submit" value="Actualizar">
-    </p>
-        <div class ="articulo">buscar
-        <img src="foto"width="200" height="200"  alt="avatar">
-        <div class="articulo-container">
-           <h4>Restaurans</h4>
-           <h5>Descripcion</h5>
-           <p>direccion</p>
-         </div>
+     <ul class="menu">
+       <il>
+           <a href="index.html">Inicio.</a>
+       </il>
+       <il>
+           <a href="busqueda.html">Busqueda</a>
+       </il>
+       <il>
+           <a href="nuevres.html">Nuevo</a>
+       </il>
+    </ul>
+    </div>
+  </nav>  
+     <div class="conteiner-lg">
+        <h1>buscar restautante</h1>
+       <div class="row">
+          <div class="mb-3">
+            <label for="txtBusqueda" class="form-label">Escriba el nombre del restautante </label>
+              <input type="text" class="form-control" id="txtBusqueda" placeholder="frisby">
+          </div>
+       </div>
+       <div class="row">
+        <button type="button" class="btn btn-info btn-sm" onclick="filtrarDatos()">Buscar</button>
         </div>
-    </div>   
+        <br>
+        <div class="row" id="contenedorFilas"></div>
+ 
     </body>
 </html>

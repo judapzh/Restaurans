@@ -102,11 +102,10 @@ nav {
   font-family: Arial;
   font-size: 10px;
   font-weight: normal;
-  background-color: black;
   text-align: right;
  }
 
-.container {
+.container-lg {
 
   margin: auto;
   margin-top: 0;
@@ -122,4 +121,7 @@ nav {
   box-shadow: o 8px 16px o rgba(0,0,0,0,2);
  }
  
- 
+ #contenedorFilas{
+  display: flex;
+  justify-content: center;
+ }

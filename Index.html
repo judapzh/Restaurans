@@ -6,6 +6,8 @@
     <meta name="viewport"content="width=device-width, initial-scale=1.0">
     <Title>Restaurans</Title>
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script type="txt/javascript" src="/content/jquery/version 3.2.1/js/jquery.win.js"></script>
+    <script type="txt/javascript" src="/Js/restaurants.js"></script>
 </head>
     <body>
         <nav>
@@ -27,45 +29,56 @@
           </div>
         </nav>  
          <div>
-        <h1>Listado de restautantes</h1>
+        <h1>Listado de Restaurantes</h1>
          </div>
-        <div class ="container"> 
+        <div class ="container-lg"> 
+        <div class="row contenedorFilas g-4" id="contenedorFilas">
+            <div class="col-3">   
             <div class ="articulo">
                <img src="./imagenes/pigasus.jpg" width="200" height="200" alt="avatar">
                <div class="articulo-container">
-                  <h4>Pigasus</h4>
-                  <h5>comida rapida </h5>
-                  <p>Los Arboles, Torre 4 Av. 43 ##51-55 a 51-1, 
+                  <h4 class="card-title">Pigasus</h4>
+                  <h5 class="card-txt">comida rapida </h5>
+                  <p class="card-txt">Los Arboles, Torre 4 Av. 43 ##51-55 a 51-1, 
                     local 145, Bello, Antioquia, Colombia</p>
                </div>  
             </div>
+        </div>
+    </div>
+        <div class="col-3">  
             <div class ="articulo">
                <img src="./imagenes/SUSHI.jpg"width="200" height="200"  alt="avatar">
                <div class="articulo-container">
-                  <h4>Suchi Market</h4>
-                  <h5>comida tradicional asiatica</h5>
-                  <p>CL. 40 #50-205 LOCAL 347,
-                    BELLO, ANTIOQUIA</p>
+                  <h4 class="card-title">Suchi Market</h4>
+                  <h5 class="card-txt">comida tradicional asiatica</h5>
+                  <p class="card-txt"> CL. 40 #50-205 LOCAL 347,
+                    BELLO, ANTIOQUIA </p>
                 </div>
-            </div>    
+            </div>
+        </div>
+            <div class="col-3">      
             <div class ="articulo">
                <img src="./imagenes/pampa.jpg" width="200" height="200"  alt="avatar">
                <div class="articulo-container">
-                  <h4>Pampa Argentina</h4>
-                   <h5>Asado cocina argentino</h5>
-                   <p>Cl. 18 #35 - 69 Medellín,
-                         Antioquia.</p>
+                  <hh4 class="card-title">Pampa Argentina</h4>
+                   <h5 class="card-txt">Asado cocina argentino</h5>
+                   <p class="card-txt"> Cl. 18 #35 - 69 Medellín,
+                         Antioquia. </p>
                 </div>
-            </div>    
+            </div> 
+        </div>
+            <div class="col-3">     
             <div class ="articulo">
                <img src="./imagenes/ilforno.jpg" width="200" height="200"  alt="avatar">
                <div class="articulo-container">
-                  <h4>Ilforno</h4>
-                  <h5> Comida para toda ocacion </h5>
-                  <p>Dg. 55 #34-67 # 34, Niquia,
-                    Bello, Antioquia</p>
+                  <h4 class="card-title">Ilforno</h4>
+                  <h5 class="card-txt"> Comida para toda ocacion </h5>
+                  <p class="card-txt"> Dg. 55 #34-67 # 34, Niquia,
+                    Bello, Antioquia </p>
                 </div>
             </div>
+            </div>
+        </div>   
         </div>
     </body>
 </html>
