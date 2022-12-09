@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Restaurante from './Restaurants';
-
+import 'img.componentes'; 
 
 function Listar() {
   return (
