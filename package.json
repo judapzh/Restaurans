@@ -1,9 +1,7 @@
 {
   "name": "restaurans",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/judapzh/Restaurans.git"
@@ -14,5 +12,12 @@
   "bugs": {
     "url": "https://github.com/judapzh/Restaurans/issues"
   },
-  "homepage": "https://github.com/judapzh/Restaurans#readme"
+  "homepage": "https://github.com/judapzh/Restaurans#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "",
+  "dependencies": {
+    "paquet": "^1.4.0"
+  }
 }
